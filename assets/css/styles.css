@@ -291,16 +291,16 @@ img {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
+  width: 99%;
 }
 .skills__css {
-  width: 85%;
+  width: 97%;
 }
 .skills__js {
-  width: 65%;
+  width: 89%;
 }
 .skills__ux {
-  width: 85%;
+  width: 98%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -483,4 +483,8 @@ img {
   .home__img {
     width: 450px;
   }
+}
+.contact__info{
+  font-size: 15px;
+  padding: 0 38%;
 }
