@@ -8,8 +8,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
-  --second-color: hsl(var(--hue-color), 56%, 12%);
+  --first-color:#FDEA60;
+  --second-color: white;
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
   --big-font-size: 2rem;
@@ -48,6 +48,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: black;
 }
 
 h1, h2, p {
@@ -88,7 +89,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #FDEA60;
 }
 
 .section {
@@ -151,7 +152,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #FDEA60;
 }
 .nav__logo {
   color: var(--second-color);
@@ -170,7 +171,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #FDEA60;
 }
 
 /*=== Show menu ===*/
@@ -192,7 +193,7 @@ img {
   margin-bottom: var(--mb-5);
 }
 .home__title-color {
-  color: var(--first-color);
+  color: #FDEA60;
 }
 .home__social {
   display: flex;
@@ -205,7 +206,7 @@ img {
   color: var(--second-color);
 }
 .home__social-icon:hover {
-  color: var(--first-color);
+  color: #FDEA60;
 }
 .home__img {
   position: absolute;
@@ -214,17 +215,17 @@ img {
   width: 260px;
 }
 .home__blob {
-  fill: var(--first-color);
+  fill: #FDEA60;
 }
 .home__blob-img {
-  width: 360px;
+  width: 418px;
 }
 
 /*BUTTONS*/
 .button {
   display: inline-block;
   background-color: var(--first-color);
-  color: #fff;
+  color: black;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
@@ -344,8 +345,8 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: black;
+  color: white;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
