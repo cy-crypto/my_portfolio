@@ -56,7 +56,7 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400
 sr.reveal('.home__social-icon',{ interval: 200}); 
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
 // TYPEWRITER 
-        const words = ["Web Developer", "Freelancer","Shopify Developer"];
+        const words = ["On-Page", "Off-Page","Technical","Local"];
         let wordIndex = 0;
         let charIndex = 0;
         let isErasing = false;
